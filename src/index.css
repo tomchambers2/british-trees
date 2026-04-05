@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --green-dark: #1a3a2a;
+  --green-mid: #2d5a3f;
+  --green-light: #4a8c5c;
+  --brown-dark: #3e2723;
+  --brown-mid: #5d4037;
+  --brown-light: #8d6e63;
+  --cream: #faf8f0;
+  --gold: #c49b30;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--cream);
+  color: #1a1a1a;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+}
